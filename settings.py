@@ -1,0 +1,17 @@
+TILE_SIZE = 64
+VERTICAL_HEIGHT = 11
+SCREEN_WIDTH = 1200
+SCREEN_HEIGHT = TILE_SIZE * VERTICAL_HEIGHT
+
+# colors 
+BG_COLOR = '#7393B3' # 060C17 7393B3
+PLAYER_COLOR = '#C4F7FF'
+TILE_COLOR = '#94D7F2'
+
+# camera not centered
+CAMERA_BORDERS = {
+	'left': 100,
+	'right': 200,
+	'top':100,
+	'bottom': 150
+}
